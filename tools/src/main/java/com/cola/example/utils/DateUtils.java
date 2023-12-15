@@ -1,6 +1,5 @@
-package com.sankuai.shangou.empower.uwms.common.utils;
+package com.cola.example.utils;
 
-import org.apache.commons.lang3.StringUtils;
 import org.joda.time.DateTime;
 import org.joda.time.format.DateTimeFormat;
 import org.joda.time.format.DateTimeFormatter;
@@ -12,7 +11,7 @@ import java.util.TimeZone;
  * 时间工具类以这个为主，逐步替换老的工具类
  * 线程安全，性能佳
  *
- * @author suyisong02
+ * @autho
  */
 public class DateUtils {
 
@@ -57,26 +56,7 @@ public class DateUtils {
         }
     }
 
-    /**
-     * 字符串转为时间
-     *
-     * @param strTime
-     * @param pattern
-     * @return
-     */
-    public static Date str2date(String strTime, Pattern pattern) {
-        strTime = StringUtils.trim(strTime);
-        if (StringUtils.isBlank(strTime)) {
-            return null;
-        }
-        DateTimeFormatter dateTimeFormatter = DateTimeFormat.forPattern(pattern.getPattern());
-        DateTime dateTime = dateTimeFormatter.parseDateTime(strTime);
-        return dateTime.toDate();
-    }
 
-    public static Date str2date(String time) {
-        return str2date(time, Pattern.yyyy_MM_dd_HH_mm_ss);
-    }
 
     /**
      * 时间转为字符串

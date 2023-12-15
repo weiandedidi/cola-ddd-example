@@ -28,6 +28,10 @@
         </dependency>
         <dependency>
             <groupId>com.cola.example</groupId>
+            <artifactId>client</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.cola.example</groupId>
             <artifactId>domain</artifactId>
         </dependency>
         <dependency>
