@@ -21,6 +21,7 @@
         <module>application</module>
         <module>client</module>
         <module>tools</module>
+        <module>start</module>
     </modules>
     <properties>
         <java.version>8</java.version>
