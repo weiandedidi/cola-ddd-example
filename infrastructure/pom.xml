@@ -28,10 +28,6 @@
         <!--  依赖反转，domain定义接口，基础设施层实现数据库的crud      -->
         <dependency>
             <groupId>com.cola.example</groupId>
-            <artifactId>tools</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.cola.example</groupId>
             <artifactId>domain</artifactId>
         </dependency>
     </dependencies>

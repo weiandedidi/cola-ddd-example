@@ -15,5 +15,5 @@
 | Infra层                                  | config      | 配置信息                      | 否     |
 | Client SDK                              | api         | 服务对外透出的API，application层实现 | 是     |
 | Client SDK                              | dto         | 服务对外的DTO                  | 是     |
-| 第三放的不依赖模型的工具包(所有包都可以使用，依赖，也可以最外层的pom引用) | [tools](tools)       | 服务对外的DTO                  | 是     |
+| 第三放的不依赖模型的工具包(所有包都可以使用，依赖，也可以最外层的pom引用) | [tools](tools)       | 第三方工具包                    | 是     |
 ![dependence.png](dependence.png)

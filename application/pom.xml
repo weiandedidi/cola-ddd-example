@@ -38,9 +38,5 @@
             <groupId>com.cola.example</groupId>
             <artifactId>infrastructure</artifactId>
         </dependency>
-        <dependency>
-            <groupId>com.cola.example</groupId>
-            <artifactId>tools</artifactId>
-        </dependency>
     </dependencies>
 </project>
